@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://debknoplsxal5"
+path="res://.godot/imported/Fancy Feast (Delayed).mp3-3811c2204cfbcf890d91ea4aa0f6ad31.mp3str"
+
+[deps]
+
+source_file="res://Songs/Fancy Feast (Delayed).mp3"
+dest_files=["res://.godot/imported/Fancy Feast (Delayed).mp3-3811c2204cfbcf890d91ea4aa0f6ad31.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

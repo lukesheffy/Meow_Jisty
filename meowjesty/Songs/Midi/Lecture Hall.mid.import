@@ -1,0 +1,14 @@
+[remap]
+
+importer="com.nlaha.godotmidi"
+type="MidiResource"
+uid="uid://ci64u7p5jqt6q"
+path="res://.godot/imported/Lecture Hall.mid-d8dbf0c5ad260c1966a59718da0326a3.res"
+
+[deps]
+
+source_file="res://Songs/Midi/Lecture Hall.mid"
+dest_files=["res://.godot/imported/Lecture Hall.mid-d8dbf0c5ad260c1966a59718da0326a3.res"]
+
+[params]
+

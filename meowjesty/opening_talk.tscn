@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://by4qo67o53s1b"]
+
+[ext_resource type="Script" uid="uid://dnm7sjk2ae1ta" path="res://dialogue1.gd" id="1_fkpkv"]
+[ext_resource type="AudioStream" uid="uid://fqct0uflhmch" path="res://Catnap.mp3" id="2_fkpkv"]
+
+[node name="Control" type="Control" unique_id=1998204998]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fkpkv")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1876136182]
+stream = ExtResource("2_fkpkv")
+volume_db = 3.649
+
+[connection signal="child_entered_tree" from="AudioStreamPlayer" to="." method="_on_audio_stream_player_child_entered_tree"]

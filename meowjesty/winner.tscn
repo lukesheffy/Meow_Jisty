@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://fhefxk5hvmr8"]
+
+[ext_resource type="Texture2D" uid="uid://1f6i37tctegg" path="res://sprites/yippe.png" id="1_ajgwe"]
+
+[node name="Winner" type="Node2D" unique_id=221592519]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=445755266]
+position = Vector2(957.6593, 552)
+scale = Vector2(1.5020499, 1.4891303)
+texture = ExtResource("1_ajgwe")
